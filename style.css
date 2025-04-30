@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+}
+.popup button{
+    border-radius: 9px;
+    background-color: whitesmoke;
+    padding: 8px;
+    width: 100px;
+    border: 0px;
+    cursor: pointer;
+
+}
+.popup #submit{
+    display: flex;
+    justify-content: center;
+    margin: 280px auto 20px;
+    display: block;
+}
+.container{
+    display: none; 
+    background-color: whitesmoke;
+    width: 250px;
+    border-radius: 7px;
+    text-align: center;
+    height: 170px;
+    justify-content: center;
+    margin: 195px auto 20px;
+   
+}
+.container h2{
+    padding-top: 20px;
+}
+
+.container button{
+    width: 230px;
+    height: 30px;
+    background-color: #67C546;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+

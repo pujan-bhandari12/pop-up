@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Thank you!</h2>
+        <h4>Your details has been successfully submitted.Thanks!</h4>
+        <button id="button">OK</button>
+
+    </div>
+    <div class="popup">
+        <button id="submit">Submit</button>
+    </div>
+    <script>
+        let submit = document.getElementById("submit");
+        let container = document.getElementsByClassName("container")[0];
+        let button = document.getElementById("button");
+
+        submit.addEventListener("click", () => {
+            setTimeout(() => {
+                container.style.display = "block";
+
+            }, 200);
+            submit.style.display = "none";
+
+        });
+        button.addEventListener("click", () => {
+            container.style.display = "none";
+            submit.style.display = "block";
+        });
+    </script>
+</body>
+
+</html>
